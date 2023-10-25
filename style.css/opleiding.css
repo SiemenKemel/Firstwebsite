@@ -1,0 +1,78 @@
+
+  h1 {
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+  }
+  img{
+    float: right;
+    width: 30%;
+  }
+
+  .allignment{
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 20%;
+    bottom: 50%;
+    margin-top: 50px;
+
+  }
+  .h1_opleiding{
+    margin-top: 20px;
+    margin-bottom: auto;
+
+  }
+  .h2_opleiding{
+    margin-top: 350px;
+
+
+  }
+.p_opleiding{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: auto;
+    
+}
+
+  .Lessenrooster {
+    margin-top: 30px;
+    width:100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  
+  .Lessenrooster thead{
+    color: #FFFFFF;
+  }
+  
+  .Lessenrooster tbody {
+    background-color: #AAAAFF;
+  }
+  
+  .Lessenrooster td {
+    border: 2px solid black;
+    padding: 6px;
+    text-align: center;
+  }
+  .Lessenrooster tbody tr td:first-child {
+    background-color: #ff702a !important;
+    font-weight: bold;
+  }
+  
+  .middagpauze {
+    background-color: #FF0066 !important;
+    font-style: italic;
+  }
+  
+  .les {
+    font-size: 12pt;
+    margin-bottom:4px;
+  }
+  
+  .lokaal {
+    font-size: 10pt;
+    font-style: italic;
+  }
+  
+  

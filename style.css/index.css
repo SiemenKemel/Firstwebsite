@@ -1,0 +1,92 @@
+.title{
+	color: var(--main-color);
+	font-weight: 600;
+	font-size: 2.4rem;}
+#profile{
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        height: 80vh;
+    }
+.section_pic-container{
+        display: flex;
+        height: 400px;
+        width: 400px;
+        margin: auto 0;
+    }
+.section_text{
+        align-self: center;
+        text-align: center;
+    }
+.section_text p {
+    font-weight: 600;
+    }
+.section_text_p1{
+        text-align: center;
+    }
+.section_text_p2{
+        font-size: 1.75rem;
+        margin-bottom: 1rem;
+    }
+.naam{
+        font-size: 3rem;
+        text-align: center;
+        color: var(--main-color);}
+.hobby_pic{
+        display: flex;
+        height: 250px;
+        width: 250px;
+        margin: auto 0;
+        float: right;  
+        }
+
+.index_category{
+            width: 80%;
+            height: auto;
+            padding: 60px 0;
+            background-color: var(--bg-color);
+            display: flex;
+            justify-content: center;
+            column-gap: 50px;
+        }
+.index_category_box{
+            width: 200px;
+            height: 200px;
+            background-color: #111;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        
+        
+.index_category_box:nth-child(1){
+            background-image: url(../images/GitaarFotoIndex.jpg);
+        }
+.index_category_box:nth-child(2){
+            background-image: url(../images/Opleiding.jpg);
+        }
+        
+.dark_overlay{
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-color: #000;
+            opacity: 0.5;
+            transition: all ease-in-out 0.2s;
+        }
+        
+.index_category_box:hover .dark_overlay{
+            opacity: 0;
+        }
+        
+        
+.index_category_box h3{
+            font-size: 22px;
+            line-height: 28px;
+            text-shadow: -2px 2px 4px #000 ;
+            z-index: 100;
+        }

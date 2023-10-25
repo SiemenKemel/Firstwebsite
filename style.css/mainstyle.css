@@ -1,0 +1,135 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	scroll-behavior: smooth;
+	list-style: none;
+	text-decoration: none;
+}
+
+:root {
+	--main-color:#ff702a;
+	--text-color:#fff;
+	--bg-color:#1e1c2a; 
+	--big-font:5rem;
+	--h2-font:2.25rem;
+	--p-font:0.9rem;
+}
+*::selection{
+	background: var(--main-color);
+	color:#fff;
+}
+html{
+	height: 100%;
+}
+body{
+color: var(--text-color);
+background-color: var(--bg-color);
+min-height: 100%;
+padding-top: 80px;
+display: flex;
+flex-direction: column;
+}
+header{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 170px;
+	background: var(--bg-color);
+}
+.title{
+	color: var(--main-color);
+	font-weight: 600;
+	font-size: 2.4rem;
+
+}
+.navbar{
+	display: flex;
+}
+.navbar a{
+	color: var(--text-color);
+	font-size: 1.1rem;
+	font-weight: 500;
+	padding: 10px 20px;
+}
+.navbar a:hover{
+	color: var(--main-color);
+	transition: 0.2s;
+
+}
+section{
+	padding-top: 4vh;
+	height: 96vh;
+	margin: 0 10rem;
+	box-sizing: border-box;
+	min-height: fit-content;
+}
+
+h2{
+	color: var(--main-color);
+	text-align: center;
+}
+
+article{
+	padding: 20px;
+	text-align: justify;
+	margin: 0 auto;
+	width: 80%;
+}
+h3{
+	font-size: 26px;
+	line-height: 32px;
+	color: #fff;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+h4{
+	padding-bottom: 15px;
+	font-size: 12px;
+	color: #aaa;
+	font-weight: 300;
+	text-align: center;
+
+}
+.footer{
+		margin-top: auto;
+		padding: 10px 0;
+		background-color: var(--bg-color);
+}
+.footer .socials{
+		text-align: center;
+		padding-bottom: 1px;
+		color: grey;
+}
+.footer .socials a {
+	font-size: 24px;
+	color: inherit;
+	border: 1px solid #ccc;
+	width: 40px;
+	height: 40px;
+	line-height: 38px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 50%;
+	margin: 0 8px;
+	opacity: 0.75;
+}
+.footer .socials a:hover{
+	opacity: 0.90;
+	color: #fff;
+}
+
+
+.footer .footer_p{
+	margin-top: 15px;
+	text-align: center;
+	font-size: 13px;
+	color: #aaa;
+}
